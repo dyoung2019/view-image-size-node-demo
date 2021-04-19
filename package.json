@@ -1,0 +1,18 @@
+{
+  "name": "view-image-size-node-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "all": "npm run es6 & npm run dev",
+    "es6": "node --experimental-modules demo.mjs",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "view-image-size": "file:../view-image-size"
+  }
+}
